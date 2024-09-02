@@ -24,5 +24,4 @@ public class UserProfileSteps extends SeleniumUtility {
         getElementText(UserProfilePageObject.LOGOUT_BUTTON);
 
     }
-
 }

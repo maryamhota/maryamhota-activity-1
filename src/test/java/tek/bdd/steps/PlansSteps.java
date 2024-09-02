@@ -28,7 +28,6 @@ public class PlansSteps extends SeleniumUtility {
         Assert.assertEquals("DATE EXPIRE", dateExpire);
 
     }
-
     @Then("validate Create Date is today's date in EST Time zone")
     public void validateCreateDate() {
        String currentDate = getElementText(PlansPageObject.CREATE_DATE_IS_TODAY_DATE);

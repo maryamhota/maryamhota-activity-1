@@ -36,7 +36,6 @@ public abstract class BaseSetup {
             throw new ExceptionsHandling("Something wrong with config file");
         }
     }
-
     public void openBrowser(){
         String browserType = properties.getProperty("ui.browser");
         boolean isHeadless = Boolean.parseBoolean(properties.getProperty("ui.browser.headless"));

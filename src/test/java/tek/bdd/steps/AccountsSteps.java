@@ -30,5 +30,6 @@ public class AccountsSteps extends SeleniumUtility {
     @When("change item per page to {string}")
     public void changeItemPerPageTo(String itemPerPage) {
         selectFromDropDown(AccountsPageObject.ITEM_PER_PAGE_SELECT, "Show " + itemPerPage);
+
     }
 }

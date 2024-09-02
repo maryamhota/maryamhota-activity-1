@@ -1,6 +1,7 @@
 @Smoke @Regression
 Feature: Login with credential and validate Plans Page
 
+
   Background: open browser and navigate to retail app
     Given open browser and navigate to retail app
     Then click on login button

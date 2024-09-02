@@ -1,6 +1,5 @@
 @Smoke @Regression
 Feature: Enter with valid username and password and then login to tek insurance app
-
   Background: Open browser and navigate to retail app
     Given open browser and navigate to retail app
     When click on login button

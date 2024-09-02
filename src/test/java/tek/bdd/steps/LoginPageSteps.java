@@ -19,7 +19,6 @@ public class LoginPageSteps extends SeleniumUtility {
         Assert.assertEquals("Sign in to your Account", loginPageText);
 
     }
-
     @Then("enter username {string} and password {string}")
     public void enterUsernameAndPassword(String username, String password) {
         sendText(LoginPageObject.USERNAME_INPUT, username);

@@ -8,6 +8,7 @@ Feature: Navigate to login page with valid CSR credentials
     Then click on sign in button
     Then click on profile button
 
+
     @Scenario_1
   Scenario: Enter valid username and password and then login
     Then validate information in Profile Side Drawer is correct

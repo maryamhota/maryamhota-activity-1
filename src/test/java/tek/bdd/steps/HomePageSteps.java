@@ -18,7 +18,6 @@ public class HomePageSteps extends SeleniumUtility {
         String tekInsuranceText = getElementText(HomePageObject.TEK_INSURANCE_UI_TEXT);
         Assert.assertEquals("TEK Insurance App", tekInsuranceText);
         System.out.println(tekInsuranceText);
-
     }
     @Then("validate Create Primary Account is exist")
     public void validateCreatePrimaryAccountIsExist() {

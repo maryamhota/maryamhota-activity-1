@@ -19,7 +19,6 @@ public class CreateAccountSteps extends SeleniumUtility {
         String createAccountHolderTitle = getElementText(CreateAccountPageObject.CREATE_PRIMARY_ACCOUNT_HOLDER_TILE);
         Assert.assertEquals("Create Primary Account Holder", createAccountHolderTitle);
     }
-
     @Then("fill up create account form")
     public void fillUpCreateAccountForm() {
         String prefix = "Jawid";

@@ -15,7 +15,6 @@ public class Hooks extends SeleniumUtility {
         LOGGER.info("Open browser and navigate to retail app");
         openBrowser();
     }
-
     @After
     public void afterEachScenario(Scenario scenario){
         LOGGER.info("Close the browser after executing the program");

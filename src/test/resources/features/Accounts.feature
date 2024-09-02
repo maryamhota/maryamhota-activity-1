@@ -1,6 +1,7 @@
 @Smoke @Regression
 Feature: Testing Account Section
 
+
   Background: open browser and navigate to retail app
     Given open browser and navigate to retail app
     Then click on login button
